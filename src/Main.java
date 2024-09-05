@@ -3,8 +3,8 @@ public class Main {
     public void bubbleArray(int[] arr) {
         int n = arr.length;
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
                     // swap temp and arr[i]
                     int temp = arr[j];
